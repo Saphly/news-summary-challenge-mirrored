@@ -15,7 +15,6 @@ const App = () => {
       console.error(data.message);
       setNews([]);
     } else {
-      console.log(data);
       setNews(data);
     }
   };
