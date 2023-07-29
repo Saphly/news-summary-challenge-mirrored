@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { getNews } from "./utils/newsDataServices";
 import Header from "./Components/Header";
-import FilterableNews from "./Components/FilterableNews";
+import HomePage from "./Components/HomePage";
 import NewsSummary from "./Components/NewsSummary";
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<FilterableNews news={news} />} />
+        <Route path="/" element={<HomePage news={news} />} />
         <Route path="/news/:id" element={<NewsSummary news={news} />} />
       </Routes>
     </>
