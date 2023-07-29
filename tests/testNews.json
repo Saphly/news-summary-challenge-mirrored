@@ -1,0 +1,33 @@
+{
+  "response": {
+    "status": "ok",
+    "userTier": "developer",
+    "total": 2441161,
+    "startIndex": 1,
+    "pageSize": 10,
+    "currentPage": 1,
+    "pages": 244117,
+    "orderBy": "newest",
+    "results": [
+      {
+        "id": "business/2023/jul/29/pension-funds-fail-to-turn-into-jeremy-hunts-magic-money-tree",
+        "type": "article",
+        "sectionId": "business",
+        "sectionName": "Business",
+        "webPublicationDate": "2023-07-29T16:00:43Z",
+        "webTitle": "Pension funds fail to turn into Jeremy Hunt’s magic money tree",
+        "webUrl": "https://www.theguardian.com/business/2023/jul/29/pension-funds-fail-to-turn-into-jeremy-hunts-magic-money-tree",
+        "apiUrl": "https://content.guardianapis.com/business/2023/jul/29/pension-funds-fail-to-turn-into-jeremy-hunts-magic-money-tree",
+        "fields": {
+          "headline": "Pension funds fail to turn into Jeremy Hunt’s magic money tree",
+          "byline": "Phillip Inman",
+          "thumbnail": "https://media.guim.co.uk/1c6f64468db97c5a585603c30e1bbb3f82598d30/0_98_3500_2100/500.jpg",
+          "bodyText": "foo bar."
+        },
+        "isHosted": false,
+        "pillarId": "pillar/news",
+        "pillarName": "News"
+      }
+    ]
+  }
+}

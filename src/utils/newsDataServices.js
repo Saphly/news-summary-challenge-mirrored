@@ -8,7 +8,7 @@ export const getNews = async () => {
       // GUARDIAN_API_URL + import.meta.env.VITE_GUARDIAN_API_KEY
       "http://localhost:3000/news"
     );
-    console.log(responseData);
+
     return responseData.data.response.results;
   } catch (error) {
     return error;
