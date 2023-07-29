@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import { getNews } from "./utils/newsDataService";
 import Header from "./Components/Header";
 import FilterableNews from "./Components/FilterableNews";
+import NewsSummary from "./Components/NewsSummary";
 
 const App = () => {
   const [news, setNews] = useState([]);
@@ -25,7 +27,10 @@ const App = () => {
   return (
     <>
       <Header />
-      <FilterableNews news={news} />
+      <Routes>
+        <Route path="/" element={<FilterableNews news={news} />} />
+        <Route path="/news/:id" element={<NewsSummary news={news} />} />
+      </Routes>
     </>
   );
 };

@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import NewsPicHeadlineCard from "./NewsPicHeadlineCard";
-import "./FilterableNews.css";
+import BodyContainer from "./BodyContainer";
 
 const FilterableNews = ({ news }) => {
   console.log(news);
   return (
-    <div className="filterable-news p-5">
+    <BodyContainer>
       <div className="container-fluid">
         <div className="row row-cols-md-2 g-5">
           {news.map((article) => {
@@ -18,7 +18,7 @@ const FilterableNews = ({ news }) => {
           })}
         </div>
       </div>
-    </div>
+    </BodyContainer>
   );
 };
 

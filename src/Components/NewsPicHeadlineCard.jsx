@@ -1,16 +1,21 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const NewsPicHeadlineCard = ({ article }) => {
   const {
     webTitle,
     fields: { headline, thumbnail },
   } = article;
+
+  console.log("article: ", article);
   return (
     <div className="d-flex flex-column align-items-center">
-      <img src={thumbnail} className="img-fluid" alt={webTitle} />
-      <h5 className="pt-2" style={{ maxWidth: "500px" }}>
-        {headline}
-      </h5>
+      <Link to={"/news/" + article.id.split("/").at(-1)}>
+        <img src={thumbnail} className="img-fluid" alt={webTitle} />
+        <h5 className="pt-2" style={{ maxWidth: "500px" }}>
+          {headline}
+        </h5>
+      </Link>
     </div>
   );
 };
