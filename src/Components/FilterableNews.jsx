@@ -3,7 +3,6 @@ import NewsPicHeadlineCard from "./NewsPicHeadlineCard";
 import BodyContainer from "./BodyContainer";
 
 const FilterableNews = ({ news }) => {
-  console.log(news);
   return (
     <BodyContainer>
       <div className="container-fluid">

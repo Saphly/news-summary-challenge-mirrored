@@ -17,7 +17,7 @@ const NewsSummary = ({ news }) => {
 
   useEffect(() => {
     const [article] = news.filter((article) => article.id.includes(id));
-    console.log("article newsSummary: ", article);
+
     if (article) setArticleDetails(article);
   }, [news]);
 

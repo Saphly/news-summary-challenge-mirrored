@@ -6,11 +6,10 @@ export const getNews = async () => {
   try {
     const responseData = await axios.get(
       // GUARDIAN_API_URL + import.meta.env.VITE_GUARDIAN_API_KEY
-      "http://localhost:3000/results"
+      "http://localhost:3000/news"
     );
     console.log(responseData);
-    return responseData.data;
-    // return responseData.data.response.results;
+    return responseData.data.response.results;
   } catch (error) {
     return error;
   }

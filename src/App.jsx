@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import { getNews } from "./utils/newsDataService";
+import { getNews } from "./utils/newsDataServices";
 import Header from "./Components/Header";
 import FilterableNews from "./Components/FilterableNews";
 import NewsSummary from "./Components/NewsSummary";

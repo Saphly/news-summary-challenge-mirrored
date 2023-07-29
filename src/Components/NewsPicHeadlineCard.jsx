@@ -7,7 +7,6 @@ const NewsPicHeadlineCard = ({ article }) => {
     fields: { headline, thumbnail },
   } = article;
 
-  console.log("article: ", article);
   return (
     <div className="d-flex flex-column align-items-center">
       <Link to={"/news/" + article.id.split("/").at(-1)}>
