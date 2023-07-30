@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690666861324" clover="3.2.0">
-  <project timestamp="1690666861324" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="7" coveredelements="7" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
-    <file name="newsDataServices.js" path="/Users/saphy/Documents/digitalFutures.nosync/news-summary-challenge/src/utils/newsDataServices.js">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="3" type="stmt"/>
-      <line num="7" count="3" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-    </file>
+<coverage generated="1690730723818" clover="3.2.0">
+  <project timestamp="1690730723818" name="All files">
+    <metrics statements="33" coveredstatements="33" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12" elements="47" coveredelements="47" complexity="0" loc="33" ncloc="33" packages="2" files="7" classes="7"/>
+    <package name="Components">
+      <metrics statements="25" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
+      <file name="BodyContainer.jsx" path="/Users/saphy/Documents/digitalFutures.nosync/news-summary-challenge/src/Components/BodyContainer.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+      <file name="Header.jsx" path="/Users/saphy/Documents/digitalFutures.nosync/news-summary-challenge/src/Components/Header.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="HomePage.jsx" path="/Users/saphy/Documents/digitalFutures.nosync/news-summary-challenge/src/Components/HomePage.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="NewsPicHeadlineCard.jsx" path="/Users/saphy/Documents/digitalFutures.nosync/news-summary-challenge/src/Components/NewsPicHeadlineCard.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="NewsSummary.jsx" path="/Users/saphy/Documents/digitalFutures.nosync/news-summary-challenge/src/Components/NewsSummary.jsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="newsArticleServices.js" path="/Users/saphy/Documents/digitalFutures.nosync/news-summary-challenge/src/utils/newsArticleServices.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+      </file>
+      <file name="newsDataServices.js" path="/Users/saphy/Documents/digitalFutures.nosync/news-summary-challenge/src/utils/newsDataServices.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
