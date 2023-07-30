@@ -5,8 +5,8 @@ import axios from "axios";
 export const getNews = async () => {
   try {
     const responseData = await axios.get(
-      // GUARDIAN_API_URL + import.meta.env.VITE_GUARDIAN_API_KEY
-      "http://localhost:3000/news"
+      GUARDIAN_API_URL + import.meta.env.VITE_GUARDIAN_API_KEY
+      // "http://localhost:3000/news"
     );
 
     return responseData.data.response.results;
