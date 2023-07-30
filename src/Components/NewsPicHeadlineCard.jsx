@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { getArticleId } from "../utils/newsArticleServices";
+import { useNavigate } from "react-router-dom";
 
 const NewsPicHeadlineCard = ({ article }) => {
   const {
@@ -7,14 +8,18 @@ const NewsPicHeadlineCard = ({ article }) => {
     fields: { headline, thumbnail },
   } = article;
 
+  const navigate = useNavigate();
+
   return (
-    <div className="d-flex flex-column align-items-center">
-      <Link to={"/news/" + article.id.split("/").at(-1)}>
-        <img src={thumbnail} className="img-fluid" alt={webTitle} />
-        <h5 className="pt-2" style={{ maxWidth: "500px" }}>
-          {headline}
-        </h5>
-      </Link>
+    <div
+      className="d-flex flex-column align-items-center"
+      role="button"
+      onClick={() => navigate("/news/" + getArticleId(article.id))}
+    >
+      <img src={thumbnail} className="img-fluid" alt={webTitle} />
+      <h5 className="pt-2" style={{ maxWidth: "500px" }}>
+        {headline}
+      </h5>
     </div>
   );
 };

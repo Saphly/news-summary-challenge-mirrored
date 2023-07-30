@@ -12,7 +12,6 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "json-server": "^0.17.3",
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
     "react-dom": "^18.2.0",
@@ -21,6 +20,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react": "^4.0.1",
@@ -30,7 +30,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
     "jsdom": "^22.1.0",
+    "json-server": "^0.17.3",
     "vite": "^4.4.0",
-    "vitest": "^0.33.0"
+    "vitest": "^0.33.0",
+    "whatwg-fetch": "^3.6.17"
   }
 }

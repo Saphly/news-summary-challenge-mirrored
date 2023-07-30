@@ -12,7 +12,7 @@ const BodyContainer = ({ children, className }) => {
 };
 
 BodyContainer.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.node,
   className: PropTypes.string,
 };
 
